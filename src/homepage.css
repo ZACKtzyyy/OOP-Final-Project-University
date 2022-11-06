@@ -1,0 +1,146 @@
+body
+{
+  margin: 0;
+  padding: 0 ;
+  background: url(university3.jpeg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+h1{
+  margin: 0 0 10px;
+  padding: 20;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+h2{
+  margin: 0 0 10px;
+  padding: 20;
+  color: rgb(2, 2, 2);
+  font-size: 30px;
+}
+.box1
+{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%,-50%);
+}
+.box2
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%,-50%);
+}
+input
+{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+input[type="text"]
+{
+  background: #fff;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+ 
+}
+button
+{
+  position: relative;
+  left: -5px;
+  border-radius: 0 25px 25px 0;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #ffc107;
+  color: #fff;
+}
+button:hover
+{
+  background: #ff5722;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    background: linear-gradient(180deg, hsl(212, 14%, 19%) 0%,hsl(212, 14%, 19%) 0%);
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+}
+
+body{
+  height: 50%;
+
+}
+
+footer {
+
+   width: 100%;
+   bottom: 0;
+   position: fixed;
+   left: 0;
+   height: 200px;
+   background-color: #ccc;
+}
+
